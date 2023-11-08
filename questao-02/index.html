@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FMT V2 (TrilhaDEV) - Questão 02</title>
+</head>
+
+<body>
+</body>
+<script>
+  let idade = prompt("Digite a idade do convidado:");
+  let setor;
+
+  if (idade <= 14) {
+    setor = "setor amarelo";
+  } else if (idade <= 18) {
+    setor = "setor azul";
+  } else if (idade <= 25) {
+    setor = "setor branco";
+  } else {
+    setor = "setor verde";
+  }
+
+  console.log("O convidado deve sentar no " + setor);
+</script>
+
+</html>
